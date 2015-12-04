@@ -2,7 +2,6 @@ module.exports = convert;
 var fs = require("fs");
 convert();
 
-
 function convert() {
       var tableName = process.argv.slice(2);
 
