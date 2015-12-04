@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "convertjsontodataset": "./bin.js"
+    "convertjson": "./dataConverter.js"
   },
   "repository": {
     "type": "git",

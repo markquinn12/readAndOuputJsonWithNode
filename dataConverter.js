@@ -3,18 +3,20 @@ var fs = require("fs");
 convert();
 
 
-function convert () {
+function convert() {
       var tableName = process.argv.slice(2);
 
       if (tableName == null || tableName == '') {
             tableName = "DEFAULT_TABLE"
-            console.log('Table name not passed as argument to script. Will insert DEFAULT_TABLE into script');
+            console.log('Table name not passed as argument to script. Will use DEFAULT_TABLE in script');
       }
       else {
             console.log('Table name: ' + tableName);
       }
 
-      var exportedData = require('./input.json');
+      var workingDirectory = process.cwd();
+      var exportedData = require(workingDirectory + '/input.json');
+
       var items = exportedData.items;
       var entireOutput = '';
 
