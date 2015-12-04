@@ -1,0 +1,26 @@
+{
+  "name": "convertjsontodataset",
+  "version": "1.0.0",
+  "description": "Converts data in a Json file to a particular output",
+  "main": "dataConverter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markquinn12/readAndOuputJsonWithNode.git"
+  },
+  "keywords": [
+    "json",
+    "node.js",
+    "node",
+    "javascript",
+    "dataset"
+  ],
+  "author": "Mark Quinn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markquinn12/readAndOuputJsonWithNode/issues"
+  },
+  "homepage": "https://github.com/markquinn12/readAndOuputJsonWithNode#readme"
+}
