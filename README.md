@@ -19,6 +19,8 @@ SELECT /*json*/ * from PERSON where first_name ='joe';
 
 The above statement will create JSON in the following format [here](input.json)
 
+**Note:** When running the above statements in SQL developer you need to run the statements using F5. If you click on the "Run Statement" button it will not create the json output.
+
 ##Utility installation
 Run the below command to install globally. This will install the files checked into this project on GITHUB and allow us to run the utility using the keyword: convertjsontodataset
 
@@ -32,8 +34,4 @@ convertjsontodataset PERSON
 - This will then create an output.txt file in the same directory similar to this [sample](output.txt)
 - Done!
 
-
-
-
-
-
+**Note:** If you do not specify a table name when running the command the utility will create each line of data with the name "DEFAULT_TABLE"
