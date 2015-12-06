@@ -1,5 +1,5 @@
 # readAndOuputJsonWithNode
-Node utility that reads JSON that represents DB table data and converts the JSON into a particular dataset format
+A node utility that reads JSON that represents DB table data and converts that JSON into a particular dataset format
 
 ####Pre-requisites
 You will need to install Node to run the utility. I use chocolatey where available:
