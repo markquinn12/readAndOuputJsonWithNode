@@ -1,3 +1,2 @@
-#!/usr/bin/env node
-
-var converter = require('./')
+var dataConverter = require('./');
+dataConverter.convert();
