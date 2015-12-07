@@ -7,6 +7,8 @@ You will need to install Node to run the utility and also GIT to be able to down
 choco install nodejs.install
 choco install git.install
 
+Git will also need to be added to the env PATH of your machine. For my machines I added the following directory to the PATH:
+C:\Program Files (x86)\Git\cmd;
 
 ##Creating the data:
 We need to export data from a DB table in JSON format. There is a utility for this built into SQL developer which allows the user to export chosen data as JSON. I have tested this and it does export the data in JSON format but the JSON that it creates is not in a valid format. 
@@ -24,7 +26,7 @@ The above statement will create JSON in the following format [here](input.json)
 **Note:** When running the above statements in SQL developer you need to run the statements using F5. If you click on the "Run Statement" button it will not create the json output.
 
 ##Utility installation
-Run the below command to install globally. This will install the files checked into this project on GITHUB and allow us to run the utility using the keyword: convertjsontodataset
+Run the below command to install globally. This will install the files checked into this project on GITHUB and allow us to run the utility using the keyword: convertjson
 
 npm install markquinn12/readAndOuputJsonWithNode -g
 
@@ -32,7 +34,7 @@ npm install markquinn12/readAndOuputJsonWithNode -g
 - Copy the JSON data to a file named input.json. You can save this file anywhere you wish
 - Open the command prompt in the directory where you saved the input.json file.
 - Run the following command, remembering to give the name of the TABLE you want to create as an argument.
-convertjsontodataset PERSON
+convertjson PERSON
 - This will then create an output.txt file in the same directory similar to this [sample](output.txt)
 - Done!
 
