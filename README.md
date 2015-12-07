@@ -2,9 +2,11 @@
 A node utility that reads JSON that represents DB table data and converts that JSON into a particular dataset format
 
 ####Pre-requisites
-You will need to install Node to run the utility. I use chocolatey where available:
+You will need to install Node to run the utility and also GIT to be able to download from my repository. I use chocolatey where available:
 
 choco install nodejs.install
+choco install git.install
+
 
 ##Creating the data:
 We need to export data from a DB table in JSON format. There is a utility for this built into SQL developer which allows the user to export chosen data as JSON. I have tested this and it does export the data in JSON format but the JSON that it creates is not in a valid format. 
