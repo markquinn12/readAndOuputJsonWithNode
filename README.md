@@ -2,9 +2,10 @@
 A node utility that reads JSON that represents DB table data and converts that JSON into a particular dataset format
 
 ####Pre-requisites
-You will need to install Node to run the utility and also GIT to be able to download from my repository. I use chocolatey where available:
+You will need to install Node to run the utility and also GIT to be able to download from my repository. I use [chocolatey](https://chocolatey.org/) where available:
 
 choco install nodejs.install
+
 choco install git.install
 
 Git will also need to be added to the env PATH of your machine. For my machines I added the following directory to the PATH:
