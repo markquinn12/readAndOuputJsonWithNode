@@ -16,11 +16,11 @@ We need to export data from a DB table in JSON format. There is a utility for th
 
 To get the JSON exported in correct format we can use another utility in SQL developer. If we have a standard table named: PERSON we can use the following statement export the data to JSON.
 
-SELECT /*json*/ * from PERSON;
+SELECT /\*json\*/ * from PERSON;
 
 If you need to limit the data to be exported you can just add extra where clauses:
 
-SELECT /*json*/ * from PERSON where first_name ='joe';
+SELECT /\*json\*/ * from PERSON where first_name ='joe';
 
 The above statement will create JSON in the following format [here](input.json)
 
